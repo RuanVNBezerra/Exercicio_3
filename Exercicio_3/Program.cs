@@ -10,7 +10,7 @@ internal class Program
         Console.WriteLine("1- (formato completo) dia da semana, dia, mês, ano , hora, minutos e segundos");
         Console.WriteLine("2- (Apenas a data do formato) exemplo: '26/10/2024' ");
         Console.WriteLine("3- (O formato de 24 horas) horas, minutos e segundos");
-        Console.WriteLine("4- (usando a data do ano por extenso) exemplo: 'dia' de 'mês', do ano 'ano'");
+        Console.WriteLine("4- (usando a data do ano com o mês por extenso) exemplo: 'dia:9, mês: outubro, ano:2024");
         // capturando a opção que o usuario digitar.
         var opcao = Console.ReadLine();
         //Chamando a função estatica para a Main:
